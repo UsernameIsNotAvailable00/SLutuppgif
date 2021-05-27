@@ -1,0 +1,61 @@
+.greece_head {
+    background-image: url("../pics/opening.jpg");
+    background-size: cover;
+    background-color: transparent;
+    opacity: 0.8;
+    padding: 40px;
+    text-align: center;
+}
+
+.greece_head p {
+    width: 80%;
+    float: center;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    float: center;
+    margin: auto;
+    padding: 25px;
+    text-align: auto;
+    background-color: white;
+}
+
+.img {
+    width: 480px;
+    height: 255px;
+    border-radius: 5px;
+}
+
+.img_text {
+    text-align: justify;
+    border: 1px;
+    width: 483px;
+    line-height: 1.5;
+}
+
+.greece_parallax {
+    background-image: url("../pics/greece3.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.greece_parallax h2 {
+    text-align: center;
+}

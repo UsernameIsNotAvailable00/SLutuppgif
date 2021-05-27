@@ -1,0 +1,44 @@
+.opening {
+    background-image: url("../pics/opening23.jpg");
+    background-size: cover;
+    background-color: transparent;
+    opacity: 0.8;
+    padding: 40px;
+    text-align: center;
+    height: 100%;
+}
+
+
+.opening h2, .opening p {
+    width: 80%;
+    float: center;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.img_100p {
+    width: 480px;
+    border-radius: 5px;
+}
+
+.italy_parallax {
+    background-image: url("../pics/vatican.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    background-color: transparent;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#p, .h2 {
+    color: rgb(209, 192, 192);
+    text-align: center;
+}
