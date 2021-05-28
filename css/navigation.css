@@ -238,32 +238,6 @@ p {
   line-height: 1.5;
 }
 
-/* Egypt delen i Home */
-.canada {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-/* Egypt bilden i Home */
-.canada1 {
-  width: 480px;
-  height: 250px;
-  border-radius: 5px;
-}
-
-.canada1:hover {
-  opacity: 0.7;
-  transition-duration: 0.5s;
-}
-
-.canada_text {
-  text-align: justify;
-  border: 1px;
-  width: 480px;
-  line-height: 1.5;
-}
-
 .footer {
   position: relative;
   overflow: hidden;
@@ -276,25 +250,10 @@ p {
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
+@media only screen and (max-width: 800px) {
+  .maindiv {
     width: 100%;
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 100px) {
-  .slider-image, .italy1, .brazil1 {
-    max-width: 500px;
-    max-height: 300px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .slider-image, .italy1, .brazil1 {
-    max-width: 200px;
-    max-height: 100px;
+    margin: auto;
+    padding: 30px;
   }
 }
