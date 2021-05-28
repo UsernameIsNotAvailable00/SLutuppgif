@@ -70,8 +70,6 @@ p {
   margin: auto;
   width: 80%;
   padding: 25px;
-  text-align: auto;
-  float: center;
   background-color: white;
 }
 
@@ -109,12 +107,13 @@ p {
   text-decoration: none;
 }
 
+
 /* Grekland bild i Home */
-.greece1, .slider-image {
-  width: 480px;
-  height: 250px;  
-  border-radius: 5px;
-}
+  .greece1, .slider-image {
+    width: 480px;
+    height: 250px;  
+    border-radius: 5px;
+  }
 
 .slider {
   margin-left: auto;
@@ -250,10 +249,26 @@ p {
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+
+/* Media Query for tablets */
+@media screen and (max-width: 1000px) {
   .maindiv {
-    width: 100%;
-    margin: auto;
-    padding: 30px;
+    min-width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .greece_text, .greece1 {
+    font-size: 14px;
+    width: 400px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .italy_text, .italy1, .egypt_text, .egypt1, .brazil_text, .brazil1 {
+    font-size: 14px;
+    width: 440px;
   }
 }
