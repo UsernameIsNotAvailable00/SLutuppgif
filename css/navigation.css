@@ -2,12 +2,6 @@
     box-sizing: border-box;
   }
 
-/* body {
-  background-image: url("../background.jpg");
-  background-size: cover;
-
-} */
-
 h1 {
   font-size: 35px;
   margin-right: 20px;
@@ -21,7 +15,7 @@ h1 {
   font-style: italic;
 }
 
-p {
+p, ol, ul {
   color: black;
   font-family: 'Newsreader', serif;
   color: black;
@@ -53,7 +47,7 @@ p {
   padding: 14px;
   text-decoration: none;
   font-size: 17px;
-  width: 20%; /* Six links of equal widths */
+  width: 16.6666666667%; /* Six links of equal widths */
 }
   
 /* Change color on hover */
@@ -276,7 +270,7 @@ p {
 /* Media Query for phones */
 @media screen and (max-width: 500px) {
   .navbar a {
-    width: 40%;
+    width: 33.3333333333%;
   }
   }
 
