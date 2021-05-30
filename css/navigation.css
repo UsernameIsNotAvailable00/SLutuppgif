@@ -275,8 +275,8 @@ p {
 
 /* Media Query for phones */
 @media screen and (max-width: 500px) {
-  .navbar a {
-    font-size: 10px;
+  .navbar a, .introduction {
+    font-size: 14px;
   }
   }
 
