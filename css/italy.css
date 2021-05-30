@@ -44,17 +44,16 @@
 }
 
 /* Media Query for tablets */
-@media screen and (max-width: 1000px) {
-  .main_italy {
-    min-width: 100%;
-    font-size: 14px;
-  }
+@media screen and (min-width: 600px) {
+    .main_italy {
+      font-size: 14px;
+    }
 }
-
-@media screen and (max-width: 1000px) {
-  .img, img_text, img_100p {
-    font-size: 14px;
-    width: 400px;
-    padding: 10px;
-  }
+  
+  @media screen and (max-width: 1000px) {
+    .div {
+      font-size: 14px;
+      margin: auto;
+    }
 }
+    
