@@ -69,7 +69,7 @@
   @media screen and (max-width: 1000px) {
     .img, .img_text, .img_100p {
       font-size: 14px;
-      width: 400px;
+      width: 200px;
       padding: 10px;
     }
   }
