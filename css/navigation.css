@@ -47,7 +47,7 @@ p, ol, ul {
   padding: 14px;
   text-decoration: none;
   font-size: 17px;
-  width: 15%; /* Six links of equal widths */
+  width: 16.66666666%; /* Six links of equal widths */
 }
   
 /* Change color on hover */
