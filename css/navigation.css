@@ -275,7 +275,13 @@ p {
 
 /* Media Query for phones */
 @media screen and (max-width: 500px) {
-  .navbar a, .introduction {
+  .navbar a {
+    width: 33.3333333333%;
+  }
+  }
+
+@media screen and (max-width: 500px) {
+  .introduction {
     font-size: 14px;
   }
   }
