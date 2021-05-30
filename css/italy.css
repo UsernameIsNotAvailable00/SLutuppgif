@@ -45,7 +45,7 @@
 
 /* Media Query for tablets */
 @media screen and (max-width: 1000px) {
-  .maindiv {
+  .main_italy {
     min-width: 100%;
     font-size: 14px;
   }
