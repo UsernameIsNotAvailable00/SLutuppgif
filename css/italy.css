@@ -42,3 +42,19 @@
     color: rgb(209, 192, 192);
     text-align: center;
 }
+
+/* Media Query for tablets */
+
+@media screen and (max-width: 1000px) {
+    .main_italy {
+        font-size: 13px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img, .img_100p {
+        font-size: 14px;
+        width: 440px;
+    }
+}
