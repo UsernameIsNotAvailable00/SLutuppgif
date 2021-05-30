@@ -272,3 +272,31 @@ p {
     width: 440px;
   }
 }
+
+/* Media Query for phones */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    font-size: 10px;
+  }
+  }
+
+@media screen and (max-width: 500px) {
+  .greece {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.greece_text, .greece1 {
+  font-size: 14px;
+  width: 400px;
+}
+}
+
+@media screen and (max-width: 500px) {
+.italy_text, .italy1, .egypt_text, .egypt1, .brazil_text, .brazil1, .slider-image {
+  font-size: 14px;
+  width: 400px;
+}
+}
+
