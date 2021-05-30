@@ -9,7 +9,6 @@
 
 .greece_head p {
     width: 80%;
-    float: center;
     margin: auto;
     text-align: center;
     font-weight: bold;
@@ -21,10 +20,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 85%;
-    float: center;
     margin: auto;
     padding: 25px;
-    text-align: auto;
     background-color: white;
 }
 
@@ -59,3 +56,20 @@
 .greece_parallax h2 {
     text-align: center;
 }
+
+
+/* Media Query for tablets */
+@media screen and (max-width: 1000px) {
+    .maindiv_greece {
+      min-width: 100%;
+      font-size: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .img, .img_text, .img_100p {
+      font-size: 14px;
+      width: 400px;
+      padding: 10px;
+    }
+  }
