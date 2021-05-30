@@ -263,7 +263,7 @@ p, ol, ul {
 @media screen and (max-width: 1000px) {
   .italy_text, .italy1, .egypt_text, .egypt1, .brazil_text, .brazil1 {
     font-size: 14px;
-    width: 440px;
+    width: 400px;
   }
 }
 
