@@ -1,16 +1,1 @@
-.egypt_head {
-    background-image: url("../pics/opening3.jpg");
-    background-size: cover;
-    background-color: transparent;
-    opacity: 0.8;
-    padding: 40px;
-    text-align: center;
-}
-
-.egypt_head h2, .egypt_head p {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-}
+.egypt_head{background-image:url("../pics/opening3.jpg");background-size:cover;background-color:transparent;opacity:0.8;padding:40px;text-align:center}.egypt_head h2, .egypt_head p{width:80%;margin:auto;text-align:center;font-weight:bold;color:black}
