@@ -255,15 +255,15 @@ p, ol, ul {
 @media screen and (max-width: 1000px) {
   .greece_text, .greece1 {
     font-size: 14px;
-    width: 300px;
+    width: 250px;
     padding: 10px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .italy_text, .italy1, .egypt_text, .egypt1, .brazil_text, .brazil1 {
+  .italy_text, .italy1, .egypt_text, .egypt1, .brazil_text, .brazil1, .slider-image {
     font-size: 14px;
-    width: 300px;
+    width: 250px;
   }
 }
 
